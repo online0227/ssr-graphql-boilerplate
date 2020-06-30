@@ -1,0 +1,56 @@
+.setProfileImage {
+    display: inline-block;
+    width: 100%;
+    margin: .6rem auto 3rem;
+}
+
+.setProfileImage .image img {
+    display: block;
+    width: 100%;
+}
+
+.setProfileImage .file_input input {
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.form_buttons {
+    display: block;
+    width: 100%;
+}
+
+.form_buttons .btn {
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: normal;
+    color: #ffffff;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.3846153846153846em 1.9230769230769231em;
+    margin: 0;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #171717;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.form_buttons .btn:hover {
+    background: rgba(0,0,0,.7);
+    border-color:  rgba(0,0,0,.7);
+}
+
+.form_buttons .btn:disabled {
+    opacity: .6;
+    pointer-events: none;
+}
+
+.form_buttons .btn, .form_buttons .btn:hover {
+    transition: all 0.4s ease-in-out;
+}

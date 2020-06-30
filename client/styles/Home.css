@@ -1,0 +1,14 @@
+.test-container {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.test-content {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
